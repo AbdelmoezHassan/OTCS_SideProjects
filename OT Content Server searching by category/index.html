@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src='js/main.js'></script>
+</head>
+<body>
+    <h1>OpenText Content server Searching by Category</h1>
+    <div class="Logindiv">
+        <h2>Firstly, login with any user have the permission to see the content</h2>
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username">
+        <span>&nbsp;&nbsp;</span>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <span>&nbsp;</span>
+        <button onclick="login()">Login</button>
+        <span>&nbsp;</span>  
+        <label for="result">Result</label>
+        <input type="text" id="result" name="result">
+
+    </div>
+
+    <div class="searchdiv">
+        <h4>Content Server Search</h4>
+        <label for="category">Choose category:</label>
+        <select id="category">
+        <option value="22833">search_category1</option>
+        <option value="23709">search_category2</option>
+        </select>
+        <label for="keyword">keyword of search:</label>
+        <input type="text" id="keyword" name="keyword">
+        <button onclick="search()">search</button>
+        <span>&nbsp;&nbsp;</span> <br><br>
+        <label for="text">search result:</label><br>
+        <textarea id="searchresult" name="searchresult" rows="10" cols="145"></textarea>
+    
+
+    </div>
+</body>
+</html>

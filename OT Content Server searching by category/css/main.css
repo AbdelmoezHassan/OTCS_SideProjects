@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(146, 141, 224);
+  font-family: verdana;
+}
+
+.Logindiv{
+  position:relative;
+  overflow:hidden;
+  border: 3px solid #1d1a18;
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  width: Auto;
+  height: 150px;
+  background-color: antiquewhite;
+}
+.searchdiv{
+
+  
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  width: Auto;
+  height: 200px;
+  
+}
+
+
+h1,h2,h4{
+  text-align: center;
+}
